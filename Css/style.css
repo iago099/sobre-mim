@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+}
+section#about {
+    display: flex;
+    flex-direction: column; /* Adiciona uma nova linha para os elementos filhos */
+    justify-content: space-between;
+    padding: 60px; /* Adiciona espaçamento interno à seção */
+    margin: 10px; /* Adiciona espaçamento externo à seção */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    border-radius: 10px; /* Suaviza as bordas */
+}
+
+section#about {
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+section#about p {
+    text-align: justify; /* Justifica o texto */
+}
+
+.profile-picture {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section#skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que os elementos se ajustem à largura da tela */
+    padding: 60px; /* Adiciona espaçamento interno à seção */
+    margin: 10px; /* Adiciona espaçamento externo à seção */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    border-radius: 10px; /* Suaviza as bordas */
+    text-align: justify;
+}
+
+
+.skills-list,
+.electricity-list {
+    flex: 1;
+    padding: 20px; /* Ajuste conforme necessário */
+}
+
+.skills-list {
+    margin-right: 50%; /* Adiciona espaço à direita da lista de habilidades */
+}
+
+.electricity-list {
+    margin-left: 70px; /* Adiciona espaço à esquerda da lista de eletricidade */
+}
+
+.skills-list ul,
+.electricity-list ul {
+    list-style: none; /* Remove os marcadores padrão da lista */
+    padding: 0;
+}
+
+.skills-list li,
+.electricity-list li {
+    padding: 10px; /* Adiciona espaçamento interno a cada item da lista */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave para mudanças de cor */
+}
+
+.skills-list li:hover,
+.electricity-list li:hover {
+    background-color: #f2f2f2; /* Adiciona uma cor de fundo ao passar o mouse sobre os itens da lista */
+}
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+section#projects{
+    display: flex;
+    flex-direction: column; /* Adiciona uma nova linha para os elementos filhos */
+    justify-content: space-between;
+    padding: 60px; /* Adiciona espaçamento interno à seção */
+    margin: 10px; /* Adiciona espaçamento externo à seção */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    border-radius: 10px; /* Suaviza as bordas */
+    
+}
+
+/* Estilos do carrossel */
+.project {
+    max-width: 600px; /* Ajuste conforme necessário */
+    margin: 0 auto;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    flex: 0 0 auto;
+    transition: transform 0.5s ease;
+}
+
+img {
+    max-width: 100%;
+    max-height: 200px; /* Ajuste a altura máxima conforme necessário */
+    width: auto;
+    height: auto;
+}
+.slide.slide-out {
+    transform: translateX(-100%); /* Desliza para a esquerda */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+section#contact {
+    display: flex;
+    flex-direction: column; /* Adiciona uma nova linha para os elementos filhos */
+    justify-content: space-between;
+    padding: 60px; /* Adiciona espaçamento interno à seção */
+    margin: 10px; /* Adiciona espaçamento externo à seção */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    border-radius: 10px; /* Suaviza as bordas */
+}
+
+
